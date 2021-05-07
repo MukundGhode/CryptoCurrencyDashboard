@@ -31,3 +31,5 @@ Step2: Install Packages:
     pip install numerize
           
 Step3: Run the file - home.py
+      `python home.py`
+      it will fetch the data and then you can access the dashboard on `http://127.0.0.1:5000/`
