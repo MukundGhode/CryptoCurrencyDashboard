@@ -1,10 +1,11 @@
 # CryptoCurrencyDashboard_CoinSwitchKuber_India_Python
 Cryptocurrency Dashboard for tradable CryptoCurrencies on CoinSwitch Kuber in India.
 
-Step1: Download the zip file and unzip it for proper directory structure
+Step1: Download the `CryptoCurrencyDashboard_CoinSwitchKuber_India_Python.zip` file and unzip it for proper directory structure
 OR
 Download all files and create a directory structure as below:
-    
+
+`CryptoCurrencyDashboard_CoinSwitchKuber_India_Python\
       home.py
       templates/
           details.html
@@ -17,7 +18,7 @@ Download all files and create a directory structure as below:
           jquery194.dataTables.css
           sort_asc.png
           sort_both.png
-          sort_desc.png
+          sort_desc.png`
           
 Step2: Install Libraries:
 
