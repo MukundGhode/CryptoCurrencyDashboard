@@ -21,7 +21,7 @@ Download all files and create a directory structure as below:
           sort_both.png
           sort_desc.png`
           
-Step2: Install Libraries:
+Step2: Install Packages:
 
     pip install CmcScraper
     pip install datetime
