@@ -4,8 +4,7 @@ Cryptocurrency Dashboard for tradable CryptoCurrencies on CoinSwitch Kuber in In
 Step1: Download the zip file and unzip it for proper directory structure
 OR
 Download all files and create a directory structure as below:
-  
-  CryptoCurrencyDashboard_CoinSwitchKuber_India_Python/
+    
       home.py
       templates/
           details.html
@@ -21,11 +20,12 @@ Download all files and create a directory structure as below:
           sort_desc.png
           
 Step2: Install Libraries:
-  pip install CmcScraper
-  pip install datetime
-  pip install logging
-  pip insall locale
-  pip install flask
-  pip install numerize
+
+    pip install CmcScraper
+    pip install datetime
+    pip install logging
+    pip insall locale
+    pip install flask
+    pip install numerize
           
 Step3: Run the file - home.py
