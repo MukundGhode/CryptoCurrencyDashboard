@@ -8,10 +8,10 @@ Download all files and create a directory structure as below:
 `CryptoCurrencyDashboard_CoinSwitchKuber_India_Python\`
 
       home.py
-      templates/
+      templates\
           details.html
           details_layout.html
-      static/
+      static\
           buttons.dataTables.min.css
           jquery.dataTables.yadcf.css
           jquery091.dataTables.yadcf.min.js
