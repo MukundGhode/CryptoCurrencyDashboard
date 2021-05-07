@@ -5,7 +5,8 @@ Step1: Download the `CryptoCurrencyDashboard_CoinSwitchKuber_India_Python.zip` f
 OR
 Download all files and create a directory structure as below:
 
-`CryptoCurrencyDashboard_CoinSwitchKuber_India_Python\
+`CryptoCurrencyDashboard_CoinSwitchKuber_India_Python\`
+
       home.py
       templates/
           details.html
