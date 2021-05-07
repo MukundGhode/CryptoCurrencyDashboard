@@ -15,7 +15,7 @@
               {% elif detail.percentage_change|float < 0 %}
                 <span class="statusRed"> {{ detail.percentage_change }} %</span>
               {% else %}
-                <span class="statusGrey"> {{ detail.percentage_change }} %</span>
+                <span class="statusGrey"> {{ detail.percentage_change }}</span>
               {% endif %}
           </td>
           <td>
@@ -24,7 +24,7 @@
               {% elif detail.percentage_change_last_7_days|float < 0 %}
                 <span class="statusRed"> {{ detail.percentage_change_last_7_days }} %</span>
               {% else %}
-                <span class="statusGrey"> {{ detail.percentage_change_last_7_days }} %</span>
+                <span class="statusGrey"> {{ detail.percentage_change_last_7_days }}</span>
               {% endif %}
           </td>
           <td>
@@ -33,7 +33,7 @@
               {% elif detail.percentage_change_this_month|float < 0 %}
                 <span class="statusRed"> {{ detail.percentage_change_this_month }} %</span>
               {% else %}
-                <span class="statusGrey"> {{ detail.percentage_change_this_month }} %</span>
+                <span class="statusGrey"> {{ detail.percentage_change_this_month }}</span>
               {% endif %}
           </td>
           <td>
@@ -51,7 +51,7 @@
               {% elif detail.percentage_change_last90days|float < 0 %}
                 <span class="statusRed"> {{ detail.percentage_change_last90days }} %</span>
               {% else %}
-                <span class="statusGrey"> {{ detail.percentage_change_last90days }} %</span>
+                <span class="statusGrey"> {{ detail.percentage_change_last90days }}</span>
               {% endif %}
           </td>
           <td>
@@ -60,7 +60,7 @@
               {% elif detail.percentage_change_last180days|float < 0 %}
                 <span class="statusRed"> {{ detail.percentage_change_last180days }} %</span>
               {% else %}
-                <span class="statusGrey"> {{ detail.percentage_change_last180days }} %</span>
+                <span class="statusGrey"> {{ detail.percentage_change_last180days }}</span>
               {% endif %}
           </td>
           <td>
@@ -69,7 +69,7 @@
               {% elif detail.percentage_change_last365days|float < 0 %}
                 <span class="statusRed"> {{ detail.percentage_change_last365days }} %</span>
               {% else %}
-                <span class="statusGrey"> {{ detail.percentage_change_last365days }} %</span>
+                <span class="statusGrey"> {{ detail.percentage_change_last365days }}</span>
               {% endif %}
           </td>
           <td>
@@ -78,11 +78,10 @@
               {% elif detail.percentage_change_all|float < 0 %}
                 <span class="statusRed"> {{ detail.percentage_change_all }} %</span>
               {% else %}
-                <span class="statusGrey"> {{ detail.percentage_change_all }} %</span>
+                <span class="statusGrey"> {{ detail.percentage_change_all }}</span>
               {% endif %}
           </td>
           <td>{{ detail.last_modified_date }}</td>
-<!--          <td><a href="{{ detail.chart_url }}" target="_blank">chart</a></td>-->
         </tr>
     {% endfor %}
 {% endblock details %}
