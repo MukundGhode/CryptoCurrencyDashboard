@@ -76,7 +76,8 @@ tradable_coinswitch_kuber = {'DOGE': 'Dogecoin',
 'SNT': 'Status',
 'STORJ': 'Storj',
 'ELF': 'aelf',
-'DNT': 'district0x'
+'DNT': 'district0x',
+'MATIC': 'Polygon'
 }
 
 coinmarketcap_url = 'https://coinmarketcap.com/currencies/'
